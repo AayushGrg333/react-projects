@@ -1,0 +1,44 @@
+.todoContainer{
+    box-shadow: 0px 0px 5px 2px white;
+    width: 750px;
+    min-height: 70vh;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    border-radius: 10px;
+    overflow: auto;
+
+}
+
+.input{
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 6px;
+}
+
+input{
+    width: 400px;
+    border-radius: 6px;
+    border: none;
+}
+
+#add-btn{
+    width: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}

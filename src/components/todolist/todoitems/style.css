@@ -1,0 +1,42 @@
+/* li {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s;
+} */
+
+li{
+    background-color: black;
+    list-style-position: inside;
+    height: 50px;
+    padding: 0 10px;
+    width: 700px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s;
+}
+li:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.delete-btn {
+    background: none; 
+    border: none; 
+    color: red; 
+    cursor: pointer; 
+    margin-left: 10px; 
+    font-size: 16px; 
+}
